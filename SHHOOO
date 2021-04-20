@@ -1,0 +1,12 @@
+a = "{} - 6$ \n \t \t {} - 8$ \n \t \t Wipes - 0$"
+ab= "{} - 16$"
+name = input("Hello, and welcome to E-shop delivery service. \n What is your name?")
+print(f"Hello {name}, we are happy to see you.")
+food1 = input("Let's start with food first. \n \t What would you like to eat?")
+food2 = input("We know you are hungry - take something else.")
+print("\n ***Conglatulations, you get wet wipes for free*** \n")
+drink1 = input("Great, now tell us what you would like to drink.")
+print("Amazing, now have a look at your shopping list below")
+print(f"---{name}'s shopping list--- \n \t FOOD \n \t \t", a.format(food1, food2))
+print("\t DRINKS \n \t \t", ab.format(drink1))
+print("Total sum is 30$ \n \t \t \t Thank you")
